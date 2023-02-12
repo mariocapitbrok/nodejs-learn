@@ -1,0 +1,9 @@
+Basic NodeJS Server Algorithm
+
+  1. Load the http core module using the require() function.
+  2. Use the http.createServer() method to create a new server, passing in a callback function that will be called for each incoming request to the server.
+  3. In the callback function, set the status code and content type of the response using the res.statusCode and res.setHeader() methods.
+  4. Write the response body using the res.write() or res.end() method.
+  5. Use the server.listen() method to start the server listening on a specific port.
+  6. Optionally, log a message to the console to indicate that the server is running and which port it is listening on.
+  7. Test the server by sending a request to the specified port using a web browser or other HTTP client.
